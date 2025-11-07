@@ -1,5 +1,5 @@
 class Analyzer:
-  def __init__(self, my_list):
+  def __init__(self, my_list=[]):
     self.my_list = list(my_list)
 
   def add_number(self, x):
