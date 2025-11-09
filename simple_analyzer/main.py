@@ -7,7 +7,8 @@ with open("/Users/merigasparan/git/simple_analyzer/config/config.txt", "r") as f
     seq_len = int(f.readline().split('=', 1)[1])
     print(int_val)
     print(seq_len)
-
+    
+print("Starting Analyzer program…")
 analyzer = Analyzer()
 while True:
     r = random.randint(1,100)
@@ -24,3 +25,4 @@ while True:
         print("Conditions met! Ending loop.")
         break
     time.sleep(int_val)
+    
