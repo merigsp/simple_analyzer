@@ -23,6 +23,16 @@ class Analyzer:
         if self.my_list[i] > self.my_list[i - 1]:
             count += 1
     return count
+  
+  def average_number(self):
+    if not self.my_list:
+        return 0
+    return sum(self.my_list) / len(self.my_list)
+
+  def range_difference(self):
+    if not self.my_list:
+        return 0
+    return max(self.my_list) - min(self.my_list)
 
   
 
